@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    font-size: 23px;
+    flex-direction: column;
+    /*align-items: center;
+    justify-content: center;*/
+}
+#wrapPage{
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgLogo{
+    width: 70px;
+    height: 70px;
+}
+#lblTitulo{
+    margin-left: 10px;
+    font-size:xx-large;
+}
+nav{
+    display: inline;
+    width: 100%;
+}
+.topnav{
+    margin-top: 2%;
+    background-color: white;
+    overflow: hidden;
+}
+.topnav a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover, .btnEntrar:hover{
+    background-color: white;
+    color:#ffd703;
+}
+.topnav a.active{
+    background-color: white;
+    color:#ffd703;
+}
+#inputPesquisar{
+    width: 200px;
+    height: 50px;
+    border: 1 solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    background: url(Site\ grupo/icons8-pesquisar.png) no-repeat scroll 7px 7px;
+    background-position: right;
+    background-size: contain;
+    padding-left:30px;
+    padding-right: 30px;
+    height: 30px;
+    width: 52%;
+    background-color: white;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+#imgBanner{
+    width: 100%;
+    height: 236px;
+    background-image: url("Site grupo/topoReal.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+  
+#imgBanner .imgBannerTransparent {
+    background-color: rgba(142, 202, 230, 0.38);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgBanner .imgBannerTransparent label {
+    color:rgb(02, 30, 47);
+    text-shadow: 2px 2px rgb(9, 103, 161);
+    font-size: 50px;
+    text-align: center;
+}
+#lblTexto{
+    text-align: center;
+    align-items: center;
+}
+.imgFotos{
+    width: 20%;
+    height: 350px;
+    margin: 2%;
+}
+.imgFotos:hover{
+    opacity: 0.5;
+}
+footer{
+    font-size: medium;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    background-color:#83b3ca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    width: 33%;
+}
+.logoRedes{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.logoRedes:hover{
+    opacity: 0.6;
+}
+.sections{
+    display:flex;
+    height: 350px;
+    
+}
+.sections .quartoTexto{
+    background-color: #FFB703;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    text-align: center;
+    font-size: 40px;
+}
+.sections .item{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 37.5%;
+}
+.sections .quarto1{
+    background-image: url("Site grupo/pag2Quarto1.jpg");
+}
+.sections .quarto2{
+    background-image: url("Site grupo/pag2Quarto2.jpg");
+}
+.sections .quarto3{
+    background-image: url("Site grupo/pag2Quarto3.jpg");
+}
+.sections .quarto4{
+    background-image: url("Site grupo/pag2Quarto4.jpg");
+}
+.textoPag2{
+    padding: 25px;
+    text-align: center;
+}
+.sections .roteiro1{
+    background-image: url("Site grupo/pag3img1.jpg");
+}
+.sections .roteiro2{
+    background-image: url("Site grupo/pag3img2.jpg");
+}
+.sections .roteiro3{
+    background-image: url("Site grupo/pag3img3.jpg");
+}
+.sections .roteiro4{
+    background-image: url("Site grupo/pag3img4.jpg");
+}
