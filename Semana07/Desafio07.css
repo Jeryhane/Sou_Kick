@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(18, 18, 18);
+}
+@media screen and (max-width: 920px){
+    body{
+        background-color: azure;
+    }
+    #header,#article2{
+        color: black!important;
+    }
+    #img1,#article1,#sessao1{
+        display: block;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    #header,#article2{
+        color: rgb(255, 255, 255)!important;
+    }
+    #sessao1{
+        flex-direction: column;
+    }
+    #article1,#img1{
+        width: 100% !important;
+        aspect-ratio: 1;
+    }
+}
+
+#header{
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 26px;
+    align-items: center;
+    align-content: center;
+}
+#article1{
+    background-color: rgb(86, 6, 19);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 23px;
+    display: flex;
+    flex: 1;
+    align-items: center; 
+}
+#article2{
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+}
+#footer{
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(12, 12, 12);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: aliceblue;
+
+}
+#img1{
+width: 49.5%;
+display: inline-block;
+flex: 1;
+}
+#img2{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+#sessao1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#imgcat1{
+    width: 100%;
+}
