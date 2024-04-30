@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headpage{
+    margin: 0.5% 3%;
+}
+
+#topnav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: medium;
+    white-space: nowrap;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+.navigator{
+    padding-left: 5%;
+    display: flex;
+    width: 60%;
+}
+
+.navigator a, .bar a{
+    width: 100%;
+    color: #252627;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logo{
+    width: 25%;
+}
+
+#logo img{
+    float: left;
+    justify-content: left;
+    width: 52%;
+}
+
+.btnEntrar{
+    color: #fff;
+    background-color: #bf1313;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border-radius: 3px;
+    border: none;
+    padding: 0px 20px 3px 20px;
+    cursor: pointer;
+}
+
+.icone{
+    width: 6%;
+    padding-left: 5px;
+}
+
+.lupa{
+    width: 3%;
+    padding: 0 2%;
+    cursor: pointer;
+}
+
+.bar{
+    display: flex;
+    width: 100%;
+    height: 40px; 
+    background-color: #e8eaee;
+    align-items: center;
+}
+
+.bar a{
+    border-left: 1.5px solid #b3b5b8;
+}
+
+#barpage{
+    height: 65px;
+    background-color: #e8eaee;
+    margin-top: 1%;
+    border-top: 1px solid #b3b5b8;
+    border-bottom: 1px solid #b3b5b8;
+}
+
+.container{
+    flex-direction: row;
+    height: 75%;
+    display: flex;
+    width: 100%;
+    margin: 1% 0%;
+    justify-content: space-around;
+}
+
+.imagens{
+    width: 23%;
+    color: #fff;
+    background-size: cover;
+    display: flex;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.imagens p{
+    align-content: center;
+    text-align: left;
+    padding: 10%;
+}
+
+
+#cruise{
+    background-image: url(img/cruise-top-gun-1_gc7t.560.webp);
+    justify-content: center;
+    align-items: flex-end;
+    background-position: center;
+}
+#cruise p{
+    background-color: rgba(212, 13, 13, 0.45);
+    height: 15%; 
+    width: 100%;
+    margin: 0;
+}
+#mbappe{
+    background-image: url(img/mbappe_w9mh.560.webp);
+    justify-content: center;
+    align-items: flex-end;
+    background-position: center;
+}
+#mbappe p{
+    background-color: hsla(231, 94%, 13%, 0.45);
+    height: 15%; 
+    width: 100%;
+    margin: 0;
+}
+#fifa22{
+    background-image: url(img/696x928.png);
+    justify-content: center;
+    align-items: flex-end;
+    background-position: center;
+}
+#fifa22 p{
+    background-color: rgba(0, 38, 255, 0.45);
+    height: 15%; 
+    width: 100%;
+    margin: 0;
+}
+#obiwan{
+    background-image: url(img/ObiWan-Kenobi-em-Fortnite-capa.png);
+    justify-content: center;
+    align-items: flex-end;
+    background-position: center;
+}
+#obiwan p{
+    background-color: rgba(234, 176, 132, 0.45);
+    height: 15%; 
+    width: 100%;
+    margin: 0;
+}
