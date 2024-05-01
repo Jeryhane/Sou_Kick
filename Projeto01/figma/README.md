@@ -1,3 +1,3 @@
-PROJETO 01 | ENTREGA 01 - FIGMA
+[PROJETO 01 | ENTREGA 01 - FIGMA]
 
-(Slice.png)
+<img src="Slice.png">
