@@ -1,0 +1,3 @@
+PROJETO 01 | ENTREGA 01 - FIGMA
+
+(Slice.png)
