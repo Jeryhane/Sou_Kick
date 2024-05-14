@@ -1,0 +1,112 @@
+#sessionInicio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.spnOpacity{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(106, 106, 106, 0.3);
+    justify-content: left;
+    align-items: end;
+    color: #fff;
+}
+
+.spnOpacity:hover{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.imgHome{
+    background-position: center;
+    width: 33.33%;
+}
+
+#imgHomeCampo{
+    background-image: url(../img/campo-home.webp);
+    filter: alpha(opacity=60);
+}
+
+
+#imgHomeCidade{
+    background-image: url(../img/cidade-home.jpg);
+    background-size: cover;
+}
+
+#imgHomeNatureza{
+    background-image: url(../img/praia-home.jpg);
+    background-size: cover;
+}
+
+.txtHome{
+    padding: 10%;
+    font-size: 42px;
+}
+
+.imgSeta{
+    padding: 10%;
+}
+#sessionCard{
+    width: 100%;
+    display: inline-flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 5% 0;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 1%;
+    padding: 3%;
+    border-radius: 15px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.containerCard {
+    padding: 2px 16px;
+    text-align: center;
+}
+
+#sessionMapa{
+    background-image: url(../img/mapa-mundi.png);
+    background-size: cover;
+    height: 111vh;
+    align-content: center;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+}
+#txtFrase{
+    font-size: xx-large;
+    width: 30%;
+    font-weight: 700;
+    margin: 0 auto;
+}
+#txtAutor{
+    width: 30%;
+    margin: 0 auto;
+}
+#sessionEmail{
+    padding: 2% 20%;
+    width: 100%;
+}
+#txtEmail{
+    background-color: #9FFFEC;
+    border-radius: 130px 20px 20px 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: x-large;
+    padding: 14%;
+}
+#divEmail{
+    padding-top: 10%;
+}

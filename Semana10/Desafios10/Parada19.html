@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aliceblue;">
+   <script>
+        var cor = prompt("Escolha a cor de fundo:\n OBS: insira em inglês.");
+        if(cor == null || cor == "" || cor == " "){
+            document.body.innerText = "cor";
+        }else{
+            document.body.style.backgroundColor = cor;
+            location.reload();
+        }
+   </script>
+</body>
+</html>

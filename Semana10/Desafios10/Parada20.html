@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    var candidato1 = 0;
+    var candidato2 = 0;
+    var candidato3 = 0;
+    var candidato4 = 0;
+    var candidato5 = 0;
+
+    do{
+        var opcao=prompt("O que deseja fazer?\n 1 - Votar\n 2 - Sair ")
+        if (opcao == 1) {
+            let voto = prompt("Escolha um candidato \n1 - Floppa \n2 - Bingus \n3 - Maxwell \n4 - Polite \n5 - Nulo");
+
+            switch(voto){
+                case "1":
+                    candidato1++
+                    alert("Votou no Floppa")
+                    break;
+                case "2":
+                    candidato2++
+                    alert("Votou no Bingus")
+                    break;
+                case "3":
+                    candidato3++
+                    alert("Votou no Maxwell")
+                    break;
+                case "4":
+                    candidato4++
+                    alert("Votou no Polite")
+                    break;
+                case "5": 
+                candidato5++
+                    alert("Nulo")
+                    break;  
+                default:
+                    alert("Número Inválido!")
+                    break;
+            }
+        }
+    }while(opcao=="1")
+    alert("Resultado da votação\n Floppa: "+candidato1+"\n Bingus: "+candidato2+"\n Maxwell: "+candidato3+"\n Polite: "+candidato4+"\n Nulo: "+candidato5)
+</script>
+</html>
