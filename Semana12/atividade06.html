@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;">
+    <!--Crie um conversor de temperatura onde o usuário irá inserir uma temperatura em celsius e a
+    mesma deve ser transformada em fahrenheit e kelvin. Utilize funções, onchange e o input.-->
+    <h1>Termometro</h1>
+    <h5>Preencha a tempertura em Celsius e selecione a medida que deseja converter</h5>
+    <input type="text" id="inputValor" oninput="calculoFahrenhit()">
+    <select onchange="mudancaCalculo()" name="" id="selectTemperatura">
+        <option value="1">Fahrenheit</option>
+        <option value="2">Kelvin</option>
+    </select>
+    <h5 id="txtResposta"></h5>
+    <script>
+        function mudancaCalculo() {
+            var selectTemperatura = document.getElementById("selectTemperatura");
+            if (selectTemperatura.value == 1) {
+                document.getElementById("inputValor").setAttribute("oninput", "calculoFahrenhit()");
+                calculoFahrenhit();
+
+                //selectTemperatura.onchange = "calculoFahrenhit()";
+            } else {
+                document.getElementById("inputValor").setAttribute("oninput", "calculoKelvin()");
+                calculoKelvin();
+            }
+        }
+        function calculoFahrenhit() {
+            var valor = parseInt(document.getElementById("inputValor").value);
+            var calc;
+            if (valor > 0) {
+                calc = (1.8 * valor) + 32;
+            }
+            document.getElementById("txtResposta").textContent = calc
+        }
+        
+        function calculoKelvin() {
+            var valor = parseInt(document.getElementById("inputValor").value);
+            var calc;
+            if (valor > 0) {
+                calc = valor + 273;
+            }
+            document.getElementById("txtResposta").textContent = calc
+        }
+    </script>
+</body>
+</html>
