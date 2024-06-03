@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máscara de Telefone com jQuery</title>
+    <!-- Incluindo jQuery do CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Incluindo jQuery Mask Plugin do CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</head>
+<body>
+    <form>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone">
+        <br>
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf">
+        <br>
+        <label for="rg">RG:</label>
+        <input type="text" id="rg" name="rg" maxlength="">
+    </form>
+ 
+    <script>
+        $(document).ready(function(){
+            $('#telefone').mask('(00) 00000-0000');
+            $('#cpf').mask('000.000.000-00');
+            $('#rg').mask('00.000.000-0');
+        });
+    </script>
+</body>
+</html>
