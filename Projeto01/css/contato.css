@@ -27,7 +27,8 @@ button{
     padding: 0 6%;
 }
 #sessionFormulario{
-    padding: 0 6%;
+    padding: 3% 6%;
+    display: flex;
 }
 .cardImage{
     background-color: #ccc;
@@ -38,4 +39,9 @@ button{
     height: 150px;
     align-content: center;
 
+}
+#formsCampos div{
+    width: 60%;
+    margin: 2% 5%;
+    box-sizing: border-box;
 }
