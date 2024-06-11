@@ -1,0 +1,22 @@
+body {
+    margin: 20px;
+    padding: 0;
+    background-color:cadetblue;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+input{
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.divInput {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}

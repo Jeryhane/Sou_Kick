@@ -45,15 +45,15 @@ nav a{
 }
 
 
-input, select {
-    width: 60%;
+input:not([type='checkbox']), select {
+    width: 100%;
     padding: 12px 20px;
     margin: 0 5%;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
 }
-input:focus {
+input:not([type='checkbox']):focus {
     outline: none;
 }
 button{
