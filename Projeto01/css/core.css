@@ -22,10 +22,12 @@ header{
 }
 
 #spnLogoNome{
+    width: 33.33%;
+}
+#lnkLogo{
     display: inline-flex;
     justify-content: left;
     align-items: center;
-    width: 33.33%;
 }
 nav{
     width: 33.33%;
@@ -34,10 +36,13 @@ nav{
     font-weight: 700;
 }
 nav a{
-    text-decoration: none;
+    
     color: #fff
 }
-
+a{
+    text-decoration: none;
+    color: #000;
+}
 #spnBtnsLogin{
     width: 33.33%;
     text-align: end;
