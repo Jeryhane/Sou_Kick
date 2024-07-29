@@ -1,0 +1,25 @@
+SOBRE + ATUACAO ATUAL
+•	Fotinha, biografia curta e interessante.
+FORMAÇAO
+•	Técnico
+•	Faculdade ADS
+•	Faculdade Ciências de Dados
+•	Cursos de idiomas 
+•	Bootcamps 
+•	Voluntariado
+HOBBIES
+•	Pequena lista com imagens
+•	Playlist do spotify
+REDES
+•	Linkedin, insta, github, 
+PROJETOS
+•	Destaque em projetos do git como uma galeria talvez?
+•	Linguagens que domino e já tive contato com imagens delas
+
+HABILIDADES
+•	   - Habilidades técnicas (linguagens de programação, ferramentas de software, etc.).
+•	   - Habilidades interpessoais (comunicação, trabalho em equipe, liderança, etc.).
+CONTATO
+•	Formulário ou link de contato
+CURRICULO (?)
+•	Download do currículo
